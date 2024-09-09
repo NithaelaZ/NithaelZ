@@ -36,6 +36,7 @@ function dark(){
   h.style.backgroundColor= "#1b2631";
   paragraph.style.backgroundColor= "var(--dark)";
   paragraph.style.color="#5d6d7e";}
-  else
+  else {
+  }
 
 }
