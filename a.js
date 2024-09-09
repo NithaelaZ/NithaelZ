@@ -26,12 +26,16 @@ t += "</ul>";
 document.getElementById("prn").innerHTML = t;
 
 function dark(){
+
   
   const checkBox = document.getElementById("d");
   const paragraph = document.getElementById('bod');
+  
+  if(checkBox.checked){
   const h = document.getElementById('adie');
   h.style.backgroundColor= "#1b2631";
-  paragraph.style.backgroundColor= "#283747";
-  paragraph.style.color="#5d6d7e";
+  paragraph.style.backgroundColor= "var(--dark)";
+  paragraph.style.color="#5d6d7e";}
+  else
 
 }

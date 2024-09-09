@@ -3,6 +3,10 @@
     --dark: #141618;
 
   }
+#dark-mode{
+  background-color:#1b2631;
+  color: #5d6d7e
+}
 body{background-color: var(--light);}
 #adie{text-align: center; 
     background-color: blanchedalmond;
