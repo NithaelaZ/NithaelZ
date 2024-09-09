@@ -26,6 +26,7 @@ t += "</ul>";
 document.getElementById("prn").innerHTML = t;
 
 function dark(){
+  
   const checkBox = document.getElementById("d");
   const paragraph = document.getElementById('bod');
   const h = document.getElementById('adie');
