@@ -14,6 +14,9 @@ document.getElementById("lu").innerHTML = text;
 document.getElementById("ld").innerHTML = "amen";
 
 const pr = [" he/him "," they/them "," fae/faer ", " she/her "];
+
+
+
 let prl = pr.length;
 
 let t = "<ul>";
@@ -37,6 +40,10 @@ function dark(){
   paragraph.style.backgroundColor= "var(--dark)";
   paragraph.style.color="#5d6d7e";}
   else {
+    const h = document.getElementById('adie');
+    h.style.backgroundColor= "blanchedalmond";
+    paragraph.style.backgroundColor= "var(--light)";
+    paragraph.style.color="black";
   }
 
 }

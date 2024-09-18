@@ -13,13 +13,23 @@ body{background-color: var(--light);}
     color:sienna;
 }
 #lu{width: 30%; 
-    float: left;}
+    float: left;
+    text-align: left;
+  position: relative;
+margin: auto;}
+
 #ld{ width: 30%;
-     float: left}
+     float: left;
+     position: fixed;
+    margin:auto;}
+    
 #r{ width: 70%;
-    float: right;}
+    float:right;
+    margin:auto;}
 
-
+.a{
+  position: fixed;
+}
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
@@ -84,3 +94,4 @@ body{background-color: var(--light);}
   .slider.round:before {
     border-radius: 50%;
   }
+
