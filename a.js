@@ -1,6 +1,6 @@
 
 
-const about = ["I'm a graphic designer who specialise in character designing and 2D art.", "Voice actress who loves to play around with diffrient accents."];
+const about = ["I'm a graphic designer who is really into in character designing and 2D art.", "Feminine voice actor who loves to play around."];
 let aLen = about.length;
 
 let text = "<ul>";
