@@ -2,27 +2,31 @@
     --light: beige;
 }
 
-body{background-color: var(--light);
-}
+
 
 header{text-align: center; 
     background-color: blanchedalmond;
     color:sienna;
 }
+body{background-color: var(--light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-#about{width: 30%; 
+}
+/* #about{width: 30%; 
     float:left;
     text-align: left;
     position: relative;
     margin: 5px;
-}
+} */
 
 #about{ width: 30%;
-      float: left;
-      position: fixed;
-      margin:auto;
-      background-color: darkolivegreen;
-      border-radius: 50px;
+    float: left;
+    position: relative;
+    margin:auto;
+    background-color: darkolivegreen;
+    border-radius: 50px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #b3f49c;
 
 }
     
@@ -32,6 +36,8 @@ header{text-align: center;
     margin:auto;
     background-color: #375a24;
     border-radius: 50px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #b3f49c;
 }
 
 #change{
@@ -47,7 +53,11 @@ header{text-align: center;
     border-radius: 100px;
     width: 40%;
 }
-
+#photo{
+    width: 40%;
+    height: auto;
+    border-radius: 50px;
+}
 #B{
     position: fixed;
     bottom: 10px;
