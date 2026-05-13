@@ -1,6 +1,6 @@
 
 
-const about = ["I'm a graphic designer who is really into in character designing and 2D art.", "Feminine voice actor who loves to play around."];
+const about = ["Character designiner and 2D concept artist.", "Feminine VA.", "HTML, CSS, and JavaScript web developer.", "Non-binary."];
 let aLen = about.length;
 
 let text = "<ul>";
@@ -10,40 +10,18 @@ for (let i = 0; i < aLen; i++)
 }
 text += "</ul>";
 
-document.getElementById("lu").innerHTML = text;
-document.getElementById("ld").innerHTML = "amen";
-
-const pr = [" he/him "," they/them "," fae/faer ", " she/her "];
+document.getElementById("about").innerHTML = text;
 
 
+const Languages = [" Polish - Native "," English - B2 "];
 
-let prl = pr.length;
+let langl = Languages.length;
 
 let t = "<ul>";
-for (let i = 0; i < prl; i++) 
+for (let i = 0; i < langl; i++) 
   {
-  t += "<li>" + pr[i] + "</li>";
+  t += "<li>" + Languages[i] + "</li>";
 }
 t += "</ul>";
 
-document.getElementById("prn").innerHTML = t;
-
-function dark(){
-
-  
-  const checkBox = document.getElementById("d");
-  const paragraph = document.getElementById('bod');
-  
-  if(checkBox.checked){
-  const h = document.getElementById('adie');
-  h.style.backgroundColor= "#1b2631";
-  paragraph.style.backgroundColor= "var(--dark)";
-  paragraph.style.color="#5d6d7e";}
-  else {
-    const h = document.getElementById('adie');
-    h.style.backgroundColor= "blanchedalmond";
-    paragraph.style.backgroundColor= "var(--light)";
-    paragraph.style.color="black";
-  }
-
-}
+document.getElementById("Languages").innerHTML = t;

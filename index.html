@@ -3,33 +3,58 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    
+    <title>Nithaels Portfolio</title>
+
+    <link rel="icon" href="https://github.com/NithaelaZ/Fairy-garden/blob/main/Pretty-Leafs/miya.png?raw=true" type="image/png">
+    
     <link rel="stylesheet" type="text/css" href="astyle.css" />
+
 </head>
 
-<body id="bod">   
-    <p><h1 id="adie">Welcome, this site is completly written by me.<br> It's a pleasure to have you as my guest
-    </h1></p> 
+<body>   
+    <header><h1> Nithaels Resume</h1></header> 
 
-    <p id = 'a'>
-            <label class="switch">
-            <input type="checkbox" id="d" onclick="dark()">
-            <span class="slider round"></span>
-          </label>
-        </p>
-    <p id="amen"></p>
-    <p id="lu"></p>
+    <div id="guts">
 
-  
-    <p id="r"> <br> My pronouns and some other things about me
-        <p id="prn"></p>
-        <p id="abt"></p>
-    </p>   
-    <p id="ld"></p>
- 
-    <script src="a.js"></script> 
-   
+        <p id="about"></p>
+
+    
+        <div id="LangBox"> <br> Languages I speak: <br>
+            <p id="Languages"></p>
+        </div>   
+
+        <div id="change">
+            <div id="B" onclick="document.getElementById('art').hidden = false; document.getElementById('guts').hidden = true;">
+            Check out my art!
+            </div>
+        </div>
+
+        <script src="a.js"></script> 
+    </div>
+    <div id = "Photo"> 
+        <img src="Images/Photo_1.jpg" alt="A photo of me" id="photo"/>
+    </div>
+    <div id="art" hidden="false">
+        <div id="socials">
+            <p id="bod1">This is a simple website I made to showcase my art and tell some other things about me. I hope you enjoy your stay!</p>
+        
+            <p id="bod2">If you want to contact me, you can find my social media links below.</p>
+        
+            <a href="https://x.com/Nithaelaz" target="_blank" id="link" >Twitter</a>
+            <a href="https://www.instagram.com/nithaelz/" target="_blank" id="link" hidden="true">Instagram</a>
+            <a href="https://www.twitch.tv/nithaelz" target="_blank" id="link">Twitch</a>
+        </div>
+
+        <div id="change">
+            <div id="B" onclick="document.getElementById('guts').hidden = false; document.getElementById('art').hidden = true;">
+            Go back!
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
