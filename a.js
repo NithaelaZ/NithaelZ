@@ -1,6 +1,6 @@
 
 
-const about = ["Character designiner and 2D concept artist.", "Feminine VA.", "HTML, CSS, and JavaScript web developer.", "Non-binary."];
+const about = ["Character designiner", "2D concept artist.", "Feminine VA.", "HTML, CSS, and JavaScript web developer."];
 let aLen = about.length;
 
 let text = "<ul>";

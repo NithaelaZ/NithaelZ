@@ -1,43 +1,47 @@
 :root {
-    --light: beige;
+    --Rosy_Brown: #D3968C;
+    --MossGreen: #839958;
+    --DarkGreen: #0A3323;
+    --Blue: #105666;
+    --Beige: #F5F4D5;
+
 }
 
-
+*{
+    Font-family: ;
+}
 
 header{text-align: center; 
-    background-color: blanchedalmond;
-    color:sienna;
+    background-color: var(--Rosy_Brown);
+    color: var(--DarkGreen);
 }
-body{background-color: var(--light);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{background: #D3968C;
+    background: radial-gradient(circle,rgba(211, 150, 140, 1) 0%, rgba(245, 244, 213, 1) 50%, rgba(131, 153, 88, 1) 100%);
+
+    color: var(--Blue);
 
 }
-/* #about{width: 30%; 
-    float:left;
-    text-align: left;
-    position: relative;
-    margin: 5px;
-} */
 
-#about{ width: 30%;
+
+#about{
     float: left;
     position: relative;
-    margin:auto;
-    background-color: darkolivegreen;
-    border-radius: 50px;
-    font-style: italic;
-    text-shadow: 1px 1px 2px #b3f49c;
 
 }
-    
-#LangBox{ width: 30%;
-    float:right;
-    text-align: center;
+
+#LangBox, #about{
+    width: 30%;
     margin:auto;
-    background-color: #375a24;
+    background-color: var(--Rosy_Brown);
     border-radius: 50px;
     font-style: italic;
-    text-shadow: 1px 1px 2px #b3f49c;
+    text-shadow: 1px 1px 2px var(--Beige);
+    text-wrap: wrap;
+}
+    
+#LangBox{ 
+    float:right;
+    text-align: center;
 }
 
 #change{
@@ -46,8 +50,8 @@ body{background-color: var(--light);
 #socials{
     position: fixed;
     text-align: center;
-    background-color: #b3f49c;
-    color: #141618;
+    background-color: var(--Rosy_Brown);
+    color: var(--Blue);
     font-size: 20px;
     padding: 10px;
     border-radius: 100px;
@@ -56,14 +60,13 @@ body{background-color: var(--light);
 #photo{
     width: 40%;
     height: auto;
-    border-radius: 50px;
 }
 #B{
     position: fixed;
     bottom: 10px;
     text-align: center;
-    background-color: #b3f49c;
-    color: #141618;
+    background-color: var(--Rosy);
+    color: car(--Blue);
     font-size: 1.5em;
     padding: 10px;
     border-radius: 100px;
@@ -72,5 +75,15 @@ body{background-color: var(--light);
 }
 
 #B:hover{
-    background-color: #375a24;
+    background-color: var(--MossGreen);
+}
+#link{
+    text-decoration: none;
+    color: var(--Blue);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px;
+}
+#link:hover{
+    background-color: var(--MossGreen);
 }
