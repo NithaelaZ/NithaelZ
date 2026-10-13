@@ -8,15 +8,14 @@
 }
 
 *{
-    Font-family: ;
+    Font-family: "Courier New", Courier, monospace;
 }
 
 header{text-align: center; 
     background-color: var(--Rosy_Brown);
     color: var(--DarkGreen);
 }
-body{background: #D3968C;
-    background: radial-gradient(circle,rgba(211, 150, 140, 1) 0%, rgba(245, 244, 213, 1) 50%, rgba(131, 153, 88, 1) 100%);
+body{background: var(--MossGreen);
 
     color: var(--Blue);
 
@@ -75,7 +74,7 @@ body{background: #D3968C;
 }
 
 #B:hover{
-    background-color: var(--MossGreen);
+    background-color: var(--Rosy_Brown);
 }
 #link{
     text-decoration: none;
@@ -85,5 +84,5 @@ body{background: #D3968C;
     border-radius: 100px;
 }
 #link:hover{
-    background-color: var(--MossGreen);
+    background-color: var(--Blue);
 }
