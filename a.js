@@ -3,7 +3,7 @@
 const about = ["Character designiner", "Digital artist.", "2D concept artist.", "Feminine VA.", "HTML, CSS, and JavaScript web developer.", "Godot and Unity programmer."];
 let aLen = about.length;
 
-let text = "<br> <br> <b>Junior</b> character designer and enviroment artist, junior QA tester for PC games, junior level designer, Unity, Godot, ClipStudio, Krita, open for work and internships<br><ul>";
+let text = " <header><h1> Alina 'Nithael' Osińskas Resume</h1></header> <br> <br> <b>Junior</b> character designer and enviroment artist, junior QA tester for PC games, junior level designer, Unity, Godot, ClipStudio, Krita, open for work and internships<br><ul>";
 for (let i = 0; i < aLen; i++) 
   {
   text += "<li>" + about[i] + "</li>";

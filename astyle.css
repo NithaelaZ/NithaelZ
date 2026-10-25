@@ -15,32 +15,74 @@ header{text-align: center;
     background-color: var(--Rosy_Brown);
     color: var(--DarkGreen);
 }
-body{background: var(--MossGreen);
-
+body{
+    background-image: url("https://github.com/NithaelaZ/NithaelZ/blob/main/Images/waves.png?raw=true");
+    background-repeat: repeat;
     color: var(--Blue);
 
 }
 
+#cont_left{
+    float: left;
+    position: relative;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
 #about{
     float: left;
     position: relative;
 
 }
-
-#LangBox, #about{
-    width: 30%;
+#about_2{
+    float: left;
+    position: relative;
+    width: calc(30vw - 10px);
     margin:auto;
     background-color: var(--Rosy_Brown);
     border-radius: 50px;
     font-style: italic;
     text-shadow: 1px 1px 2px var(--Beige);
     text-wrap: wrap;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+#guts{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+}
+
+#LangBox, #about{
+    width: calc(30vw - 10px);
+    margin:auto;
+    background-color: var(--Rosy_Brown);
+    border-radius: 50px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px var(--Beige);
+    text-wrap: wrap;
+    height:auto;
+    margin: 10px;
+    padding: 10px;
 }
     
 #LangBox{ 
     float:right;
     text-align: center;
+}
+#photo{
+    width: auto;
+    height: 80vh;
+    margin: 10px;
+}
+#Photo{
+    float: right;
+    position: relative;
 }
 
 #change{
@@ -56,33 +98,22 @@ body{background: var(--MossGreen);
     border-radius: 100px;
     width: 40%;
 }
-#photo{
-    width: 40%;
-    height: auto;
-}
+
 #B{
-    position: fixed;
-    bottom: 10px;
-    text-align: center;
-    background-color: var(--Rosy);
-    color: car(--Blue);
+  
+    background-color: var(--Rosy_Brown);
+    color: var(--Blue);
     font-size: 1.5em;
     padding: 10px;
     border-radius: 100px;
     width: 30%;
-    height: 50px;
+    height: 10wh;
+    float: left;
+    margin: 10px;
 }
 
 #B:hover{
-    background-color: var(--Rosy_Brown);
+    background-color: var(--DarkGreen);
+    color: var(--Beige);
 }
-#link{
-    text-decoration: none;
-    color: var(--Blue);
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 100px;
-}
-#link:hover{
-    background-color: var(--Blue);
-}
+
