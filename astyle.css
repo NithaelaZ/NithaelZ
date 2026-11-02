@@ -55,7 +55,6 @@ body{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    justify-content: center;
 }
 
 #LangBox, #about{
@@ -74,14 +73,18 @@ body{
 #LangBox{ 
     float:right;
     text-align: center;
+    height: 20vh;
 }
 #photo{
-    width: auto;
-    height: 80vh;
+    width: clamp(200px, 30vw, 400px); ;
+    /* height: 80vh;*/
     margin: 10px;
+    max-height: 80vh;
+    aspect-ratio: 1365/2048;
+    float: center;
 }
 #Photo{
-    float: right;
+    float: center;
     position: relative;
 }
 
